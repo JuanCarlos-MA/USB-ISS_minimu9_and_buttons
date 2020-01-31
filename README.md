@@ -6,7 +6,7 @@ Tutorial de utilización del módulo USB-ISS conectado al Pololu MinIMU-9 v2 (Ac
 ## Pre-requisitos
 Se deberá de contar con los siguientes elementos:
 * Pololu MinIMU-9 v2 o versiones más actualizadas, por ejemplo: [MinIMU-9 v5](https://www.pololu.com/product/2738) (Al ser una versión diferente a la utilizada, se requiere leer el apartado de [Compatibilidades](#compatibilidades))
-* Módulo [USB-ISS](https://www.robot-electronics.co.uk/usb-iss-enhanced-usb-i2c-module.html)
+* Módulo de comunicación [USB-ISS](https://www.robot-electronics.co.uk/usb-iss-enhanced-usb-i2c-module.html)
 * Cable [USB A macho a B macho](https://www.trossenrobotics.com/store/p/6611-USB-A-Male-to-B-Male-6ft-Cable.aspx)
 * Dos [Push-buttons](https://www.sparkfun.com/products/8605)
 * Dos [resistencias de 1K Ohms](https://www.sparkfun.com/products/14492)
@@ -16,6 +16,7 @@ Se deberá de contar con los siguientes elementos:
   <img width="260" length="100" src="https://www.robot-electronics.co.uk/images/usb-iss-300.png">
 </p>
 
+El módulo de comunicación USB-ISS es un dispositivo que provee de una completa interfaz entre la PC e I2C, SPI, Puerto Serial o una Entrada Analógica o Digital de propósito general, con el fin de hacer más fácil la transmisión o recepción de datos.
 
 <p align="center">
   <img width="260" length="100" src="https://a.pololu-files.com/picture/0J4037.600x480.jpg?db7cf96bdb8f6b5fa41ccef67ecbf90b">
