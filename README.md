@@ -41,14 +41,16 @@ Al conectar el USB a la computadora con Ubuntu, es necesario verificar que el di
 ```
 sudo chmod a+rw /dev/ttyACM0 
 ```
-Para utilizar el proyecto, se puede descargar o clonar con la siguiente instrucción: 
+Para utilizar el proyecto, se puede descargar o clonar y posteriormente utilizando el compilador **gcc** se podrá correr el programa con las siguientes instrucciones en una Terminal: 
 
 ```
 cd ~
-
-
+git clone https://github.com/JuanCarlos-MA/USB-ISS_minimu9_and_buttons.git
+cd ~/USB-ISS_minimu9_and_buttons/USB-ISS_MinIMU-9_buttons/
+gcc -o minimu minimu9.c
+./minimu
 ```
-Para utilizar el proyecto, se puede descargar o clonar con la siguiente instrucción: 
+Finalmente, se adjunto un archivo .txt con un ejemplo de la salida del programa, con el objetivo de corroborar que efectivamente el dispositivo está funcionando correctamente.
 
 ## Autor
 
