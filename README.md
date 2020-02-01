@@ -1,7 +1,7 @@
 # USB-ISS_minimu9_and_buttons
 
 ## Descripción general
-Tutorial de utilización del módulo USB-ISS conectado al Pololu MinIMU-9 v2 (Acelerómetro, Magnetómetro y Giroscopio) y 2 push buttons en código C con el propósito de la utilizar los datos de salida en programas más avanzados.
+Tutorial de conexión y utilización en Ubuntu del módulo USB-ISS conectado al Pololu MinIMU-9 v2 (Acelerómetro, Magnetómetro y Giroscopio) y 2 push buttons en código C con el propósito de la utilizar los datos de salida en programas más avanzados.
 
 ## Pre-requisitos
 Se deberá de contar con los siguientes elementos:
@@ -24,7 +24,7 @@ El módulo de comunicación USB-ISS es un dispositivo que provee de una completa
 
 El Pololu MinIMU-9 es un dispositivo que contiene tres sensores sensores (Giroscopio, Magnetómetro y Acelerómetro) en una interfaz I2C que accede a nueve mediciones independientes de rotación, magnéticas y aceleración, mediante sus diferentes direcciones, las cuales se encuentran en las siguientes referencias [2-3].
 
-## Diagrama de conexión utilizado
+## Diagrama de conexión
 
 <p align="center">
   <img width="650" length="250" src="https://github.com/JuanCarlos-MA/USB-ISS_minimu9_and_buttons/blob/master/connection_diag.png">
@@ -35,8 +35,20 @@ Con este diagrama se permite establecer un ejemplo de conexión con los entre el
 ## Compatibilidades
 Debido a que el MinIMU-9 v2 es un dispositivo que ha sido descontinuado por versiones más actualizadas tal y cómo el MinIMU-9 v5 contiene diferentes tipos de sensores, es necesario revisar a detalle las direcciones para accesar al dispositivo y para poder leer los datos de las 9 mediciones [4-5].
 
+## Proceso de utilización
+
+Al conectar el USB a la computadora con Ubuntu, es necesario verificar que el dispositivo aparece como algún puerto ACM, pj. `/dev/ttyACM0`, así como es de suma importancia habilitar los permisos de lectura de dicho dispositivo para ello se necesita escribir en una linea de comandos:
+```
+sudo chmod a+rw /dev/ttyACM0 
+```
+Para utilizar el proyecto, se puede descargar o clonar con la siguiente instrucción: 
+
+```
+cd ~
 
 
+```
+Para utilizar el proyecto, se puede descargar o clonar con la siguiente instrucción: 
 
 ## Autor
 
