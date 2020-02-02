@@ -6,7 +6,7 @@ Tutorial de conexión y utilización en Ubuntu del módulo USB-ISS conectado al 
 ## Pre-requisitos
 Se deberá de contar con los siguientes elementos:
 * Pololu MinIMU-9 v2 o versiones más actualizadas, por ejemplo: [MinIMU-9 v5](https://www.pololu.com/product/2738) (Al ser una versión diferente a la utilizada, se requiere leer el apartado de [Compatibilidades](#compatibilidades))
-* Módulo de comunicación [USB-ISS](https://www.robot-electronics.co.uk/usb-iss-enhanced-usb-i2c-module.html)
+* Módulo de comunicación USB-ISS (Puede ser comprado de [México](https://store.robodacta.mx/interfaces-y-programadores/interfaces/interfaz-usb-iss/) o [Estados Unidos](https://www.robotshop.com/en/devantect-usb-to-i2c-spi-serial-interface.html))
 * Cable [USB A macho a B macho](https://www.trossenrobotics.com/store/p/6611-USB-A-Male-to-B-Male-6ft-Cable.aspx)
 * Dos [Push-buttons](https://www.sparkfun.com/products/8605)
 * Dos [resistencias de 1K Ohms](https://www.sparkfun.com/products/14492)
@@ -50,7 +50,28 @@ cd ~/USB-ISS_minimu9_and_buttons/USB-ISS_MinIMU-9_buttons/
 gcc -o minimu minimu9.c
 ./minimu
 ```
-Finalmente, se adjunto un archivo .txt con un ejemplo de la salida del programa, con el objetivo de corroborar que efectivamente el dispositivo está funcionando correctamente.
+Finalmente, al correr el programa ejecutable `./minimu` se deberá mostrar una salida similar a la siguiente:
+```
+USB-ISS Module ID: 7 
+USB-ISS Software v: 6 
+
+ 
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   DATOS DE LOS SENSORES   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+    Acelerómetro			    Magnetómetro		              Giroscopio		  Botones 
+
+  X        Y        Z			 X        Y        Z			 X        Y        Z		  B1   B2 
+-0.016  -0.031  -1.094 			209	-1121 	-864			157	-70       41		 OFF   OFF
+ 
+0.000  -0.016  -1.078 			209	-1121 	-865			151	-80       80		 OFF   OFF
+ 
+0.000  -0.031  -1.078 			210	-1121 	-863			147	-92       51		 OFF   OFF
+ 
+-0.016  -0.016  -1.094 			209	-1121 	-865			126	-86       58		 ON   ON
+ 
+-0.016  -0.016  -1.078 			210	-1121 	-864			143	-111       82		 OFF   ON
+```
+Para observar una salida del programa más completo, se adjuntó un archivo .txt, llamado [ejemplo-salida.txt](USB-ISS_MinIMU-9_buttons/ejemplo-salida.txt).
 
 ## Autor
 
