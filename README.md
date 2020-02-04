@@ -71,7 +71,7 @@ USB-ISS Software v: 6
  
 -0.016  -0.016  -1.078 			210	-1121 	-864			143	-111       82		 OFF   ON
 ```
-Para observar una salida del programa más completo, se adjuntó un archivo .txt, llamado [ejemplo-salida.txt](USB-ISS_MinIMU-9_buttons/ejemplo-salida.txt).
+Esto demuestra que funciona correctamente, para observar una salida del programa más completo, se adjuntó un archivo .txt, llamado [ejemplo-salida.txt](USB-ISS_MinIMU-9_buttons/ejemplo-salida.txt).
 
 ## Autor
 
