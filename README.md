@@ -75,7 +75,7 @@ Esto demuestra que funciona correctamente, para observar una salida del programa
 
 ## Autor
 
-**Juan Carlos Martínez Aguilar** *Estancia de Investigación (Invierno 2020)*
+**Juan Carlos Martínez Aguilar** *Estancia de Investigación en Robots Humanoides*
 
 ## Referencias
 1. Anónimo, "Robot Electronics," [Online]. Available: https://www.robot-electronics.co.uk/htm/usb_iss_tech.htm.
