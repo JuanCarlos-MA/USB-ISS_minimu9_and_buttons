@@ -46,7 +46,7 @@ Para utilizar el proyecto, se puede descargar o clonar y posteriormente utilizan
 ```
 cd ~
 git clone https://github.com/JuanCarlos-MA/USB-ISS_minimu9_and_buttons.git
-cd ~/USB-ISS_minimu9_and_buttons/USB-ISS_MinIMU-9_buttons/
+cd ~/USB-ISS_minimu9_and_buttons-master/USB-ISS_MinIMU-9_buttons/
 gcc -o minimu minimu9.c
 ./minimu
 ```
