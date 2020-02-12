@@ -37,7 +37,7 @@ Debido a que el MinIMU-9 v2 es un dispositivo que ha sido descontinuado por vers
 
 ## Proceso de utilización
 
-Al conectar el USB a la computadora con Ubuntu, es necesario verificar que el dispositivo aparece como algún puerto ACM, pj. `/dev/ttyACM0`, así como es de suma importancia habilitar los permisos de lectura de dicho dispositivo para ello se necesita escribir en una linea de comandos:
+Al conectar el USB a la computadora con Ubuntu, es necesario verificar que el dispositivo aparece como algún puerto ACM, p. ej. `/dev/ttyACM0`, así como es de suma importancia habilitar los permisos de lectura de dicho dispositivo para ello se necesita escribir en una linea de comandos:
 ```
 sudo chmod a+rw /dev/ttyACM0 
 ```
